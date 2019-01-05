@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A7E6C4621E178890074C314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E6C4521E178890074C314 /* AppDelegate.swift */; };
+		7A7E6C4821E178890074C314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E6C4721E178890074C314 /* ViewController.swift */; };
+		7A7E6C4B21E178890074C314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7E6C4921E178890074C314 /* Main.storyboard */; };
+		7A7E6C4D21E1788A0074C314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A7E6C4C21E1788A0074C314 /* Assets.xcassets */; };
+		7A7E6C5021E1788A0074C314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7E6C4E21E1788A0074C314 /* LaunchScreen.storyboard */; };
+		7A7E6C5B21E1788A0074C314 /* NCMBRoomKeySamplerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E6C5A21E1788A0074C314 /* NCMBRoomKeySamplerTests.swift */; };
+		7A7E6C6621E1788A0074C314 /* NCMBRoomKeySamplerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E6C6521E1788A0074C314 /* NCMBRoomKeySamplerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A7E6C5721E1788A0074C314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A7E6C3A21E178890074C314 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A7E6C4121E178890074C314;
+			remoteInfo = NCMBRoomKeySampler;
+		};
+		7A7E6C6221E1788A0074C314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A7E6C3A21E178890074C314 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A7E6C4121E178890074C314;
+			remoteInfo = NCMBRoomKeySampler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A7E6C4221E178890074C314 /* NCMBRoomKeySampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCMBRoomKeySampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7E6C4521E178890074C314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A7E6C4721E178890074C314 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A7E6C4A21E178890074C314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A7E6C4C21E1788A0074C314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A7E6C4F21E1788A0074C314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A7E6C5121E1788A0074C314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A7E6C5621E1788A0074C314 /* NCMBRoomKeySamplerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NCMBRoomKeySamplerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7E6C5A21E1788A0074C314 /* NCMBRoomKeySamplerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCMBRoomKeySamplerTests.swift; sourceTree = "<group>"; };
+		7A7E6C5C21E1788A0074C314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A7E6C6121E1788A0074C314 /* NCMBRoomKeySamplerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NCMBRoomKeySamplerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7E6C6521E1788A0074C314 /* NCMBRoomKeySamplerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCMBRoomKeySamplerUITests.swift; sourceTree = "<group>"; };
+		7A7E6C6721E1788A0074C314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A7E6C3F21E178890074C314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A7E6C5321E1788A0074C314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A7E6C5E21E1788A0074C314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A7E6C3921E178890074C314 = {
+			isa = PBXGroup;
+			children = (
+				7A7E6C4421E178890074C314 /* NCMBRoomKeySampler */,
+				7A7E6C5921E1788A0074C314 /* NCMBRoomKeySamplerTests */,
+				7A7E6C6421E1788A0074C314 /* NCMBRoomKeySamplerUITests */,
+				7A7E6C4321E178890074C314 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A7E6C4321E178890074C314 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A7E6C4221E178890074C314 /* NCMBRoomKeySampler.app */,
+				7A7E6C5621E1788A0074C314 /* NCMBRoomKeySamplerTests.xctest */,
+				7A7E6C6121E1788A0074C314 /* NCMBRoomKeySamplerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A7E6C4421E178890074C314 /* NCMBRoomKeySampler */ = {
+			isa = PBXGroup;
+			children = (
+				7A7E6C4521E178890074C314 /* AppDelegate.swift */,
+				7A7E6C4721E178890074C314 /* ViewController.swift */,
+				7A7E6C4921E178890074C314 /* Main.storyboard */,
+				7A7E6C4C21E1788A0074C314 /* Assets.xcassets */,
+				7A7E6C4E21E1788A0074C314 /* LaunchScreen.storyboard */,
+				7A7E6C5121E1788A0074C314 /* Info.plist */,
+			);
+			path = NCMBRoomKeySampler;
+			sourceTree = "<group>";
+		};
+		7A7E6C5921E1788A0074C314 /* NCMBRoomKeySamplerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A7E6C5A21E1788A0074C314 /* NCMBRoomKeySamplerTests.swift */,
+				7A7E6C5C21E1788A0074C314 /* Info.plist */,
+			);
+			path = NCMBRoomKeySamplerTests;
+			sourceTree = "<group>";
+		};
+		7A7E6C6421E1788A0074C314 /* NCMBRoomKeySamplerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A7E6C6521E1788A0074C314 /* NCMBRoomKeySamplerUITests.swift */,
+				7A7E6C6721E1788A0074C314 /* Info.plist */,
+			);
+			path = NCMBRoomKeySamplerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A7E6C4121E178890074C314 /* NCMBRoomKeySampler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A7E6C6A21E1788A0074C314 /* Build configuration list for PBXNativeTarget "NCMBRoomKeySampler" */;
+			buildPhases = (
+				7A7E6C3E21E178890074C314 /* Sources */,
+				7A7E6C3F21E178890074C314 /* Frameworks */,
+				7A7E6C4021E178890074C314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NCMBRoomKeySampler;
+			productName = NCMBRoomKeySampler;
+			productReference = 7A7E6C4221E178890074C314 /* NCMBRoomKeySampler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A7E6C5521E1788A0074C314 /* NCMBRoomKeySamplerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A7E6C6D21E1788A0074C314 /* Build configuration list for PBXNativeTarget "NCMBRoomKeySamplerTests" */;
+			buildPhases = (
+				7A7E6C5221E1788A0074C314 /* Sources */,
+				7A7E6C5321E1788A0074C314 /* Frameworks */,
+				7A7E6C5421E1788A0074C314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A7E6C5821E1788A0074C314 /* PBXTargetDependency */,
+			);
+			name = NCMBRoomKeySamplerTests;
+			productName = NCMBRoomKeySamplerTests;
+			productReference = 7A7E6C5621E1788A0074C314 /* NCMBRoomKeySamplerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A7E6C6021E1788A0074C314 /* NCMBRoomKeySamplerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A7E6C7021E1788A0074C314 /* Build configuration list for PBXNativeTarget "NCMBRoomKeySamplerUITests" */;
+			buildPhases = (
+				7A7E6C5D21E1788A0074C314 /* Sources */,
+				7A7E6C5E21E1788A0074C314 /* Frameworks */,
+				7A7E6C5F21E1788A0074C314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A7E6C6321E1788A0074C314 /* PBXTargetDependency */,
+			);
+			name = NCMBRoomKeySamplerUITests;
+			productName = NCMBRoomKeySamplerUITests;
+			productReference = 7A7E6C6121E1788A0074C314 /* NCMBRoomKeySamplerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A7E6C3A21E178890074C314 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ylab, Inc.";
+				TargetAttributes = {
+					7A7E6C4121E178890074C314 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7A7E6C5521E1788A0074C314 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7A7E6C4121E178890074C314;
+					};
+					7A7E6C6021E1788A0074C314 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7A7E6C4121E178890074C314;
+					};
+				};
+			};
+			buildConfigurationList = 7A7E6C3D21E178890074C314 /* Build configuration list for PBXProject "NCMBRoomKeySampler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A7E6C3921E178890074C314;
+			productRefGroup = 7A7E6C4321E178890074C314 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A7E6C4121E178890074C314 /* NCMBRoomKeySampler */,
+				7A7E6C5521E1788A0074C314 /* NCMBRoomKeySamplerTests */,
+				7A7E6C6021E1788A0074C314 /* NCMBRoomKeySamplerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A7E6C4021E178890074C314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7E6C5021E1788A0074C314 /* LaunchScreen.storyboard in Resources */,
+				7A7E6C4D21E1788A0074C314 /* Assets.xcassets in Resources */,
+				7A7E6C4B21E178890074C314 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A7E6C5421E1788A0074C314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A7E6C5F21E1788A0074C314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A7E6C3E21E178890074C314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7E6C4821E178890074C314 /* ViewController.swift in Sources */,
+				7A7E6C4621E178890074C314 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A7E6C5221E1788A0074C314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7E6C5B21E1788A0074C314 /* NCMBRoomKeySamplerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A7E6C5D21E1788A0074C314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7E6C6621E1788A0074C314 /* NCMBRoomKeySamplerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A7E6C5821E1788A0074C314 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A7E6C4121E178890074C314 /* NCMBRoomKeySampler */;
+			targetProxy = 7A7E6C5721E1788A0074C314 /* PBXContainerItemProxy */;
+		};
+		7A7E6C6321E1788A0074C314 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A7E6C4121E178890074C314 /* NCMBRoomKeySampler */;
+			targetProxy = 7A7E6C6221E1788A0074C314 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A7E6C4921E178890074C314 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A7E6C4A21E178890074C314 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A7E6C4E21E1788A0074C314 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A7E6C4F21E1788A0074C314 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A7E6C6821E1788A0074C314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A7E6C6921E1788A0074C314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A7E6C6B21E1788A0074C314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 939YVKTKUP;
+				INFOPLIST_FILE = NCMBRoomKeySampler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ylab.NCMBRoomKeySampler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A7E6C6C21E1788A0074C314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 939YVKTKUP;
+				INFOPLIST_FILE = NCMBRoomKeySampler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ylab.NCMBRoomKeySampler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A7E6C6E21E1788A0074C314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 939YVKTKUP;
+				INFOPLIST_FILE = NCMBRoomKeySamplerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ylab.NCMBRoomKeySamplerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NCMBRoomKeySampler.app/NCMBRoomKeySampler";
+			};
+			name = Debug;
+		};
+		7A7E6C6F21E1788A0074C314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 939YVKTKUP;
+				INFOPLIST_FILE = NCMBRoomKeySamplerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ylab.NCMBRoomKeySamplerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NCMBRoomKeySampler.app/NCMBRoomKeySampler";
+			};
+			name = Release;
+		};
+		7A7E6C7121E1788A0074C314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 939YVKTKUP;
+				INFOPLIST_FILE = NCMBRoomKeySamplerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ylab.NCMBRoomKeySamplerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NCMBRoomKeySampler;
+			};
+			name = Debug;
+		};
+		7A7E6C7221E1788A0074C314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 939YVKTKUP;
+				INFOPLIST_FILE = NCMBRoomKeySamplerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ylab.NCMBRoomKeySamplerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NCMBRoomKeySampler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A7E6C3D21E178890074C314 /* Build configuration list for PBXProject "NCMBRoomKeySampler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A7E6C6821E1788A0074C314 /* Debug */,
+				7A7E6C6921E1788A0074C314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A7E6C6A21E1788A0074C314 /* Build configuration list for PBXNativeTarget "NCMBRoomKeySampler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A7E6C6B21E1788A0074C314 /* Debug */,
+				7A7E6C6C21E1788A0074C314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A7E6C6D21E1788A0074C314 /* Build configuration list for PBXNativeTarget "NCMBRoomKeySamplerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A7E6C6E21E1788A0074C314 /* Debug */,
+				7A7E6C6F21E1788A0074C314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A7E6C7021E1788A0074C314 /* Build configuration list for PBXNativeTarget "NCMBRoomKeySamplerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A7E6C7121E1788A0074C314 /* Debug */,
+				7A7E6C7221E1788A0074C314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A7E6C3A21E178890074C314 /* Project object */;
+}
