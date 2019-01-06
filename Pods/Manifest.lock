@@ -1,0 +1,66 @@
+PODS:
+  - KafkaRefresh (1.2.3):
+    - KafkaRefresh/Category (= 1.2.3)
+    - KafkaRefresh/Configuration (= 1.2.3)
+    - KafkaRefresh/Core (= 1.2.3)
+    - KafkaRefresh/Default (= 1.2.3)
+    - KafkaRefresh/Style (= 1.2.3)
+    - KafkaRefresh/UIKit (= 1.2.3)
+  - KafkaRefresh/Category (1.2.3)
+  - KafkaRefresh/Configuration (1.2.3):
+    - KafkaRefresh/UIKit/FootKit
+    - KafkaRefresh/UIKit/HeadKit
+  - KafkaRefresh/Core (1.2.3):
+    - KafkaRefresh/Category
+  - KafkaRefresh/Default (1.2.3):
+    - KafkaRefresh/Style
+  - KafkaRefresh/Style (1.2.3)
+  - KafkaRefresh/UIKit (1.2.3):
+    - KafkaRefresh/UIKit/FootKit (= 1.2.3)
+    - KafkaRefresh/UIKit/HeadKit (= 1.2.3)
+    - KafkaRefresh/UIKit/LayerKit (= 1.2.3)
+  - KafkaRefresh/UIKit/FootKit (1.2.3):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Core
+    - KafkaRefresh/Default
+    - KafkaRefresh/Style
+    - KafkaRefresh/UIKit/LayerKit
+  - KafkaRefresh/UIKit/HeadKit (1.2.3):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Core
+    - KafkaRefresh/Default
+    - KafkaRefresh/Style
+    - KafkaRefresh/UIKit/LayerKit
+  - KafkaRefresh/UIKit/LayerKit (1.2.3):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Default
+  - MBProgressHUD (1.1.0)
+  - NCMB (3.0.0)
+
+DEPENDENCIES:
+  - KafkaRefresh
+  - MBProgressHUD
+  - NCMB (from `https://github.com/NIFCloud-mbaas/ncmb_ios.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - KafkaRefresh
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  NCMB:
+    :git: https://github.com/NIFCloud-mbaas/ncmb_ios.git
+
+CHECKOUT OPTIONS:
+  NCMB:
+    :commit: ce9d29969b01382943e4d8fd30f07d17dc52f3de
+    :git: https://github.com/NIFCloud-mbaas/ncmb_ios.git
+
+SPEC CHECKSUMS:
+  KafkaRefresh: c9794c5a696eaf00371c18ba385c8c3d114b5bff
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  NCMB: 53f7cd60388556330e18cc9196cbe4f897d5c091
+
+PODFILE CHECKSUM: 32c56cf3194e7571e217519df161d2ed04f31ab8
+
+COCOAPODS: 1.5.3

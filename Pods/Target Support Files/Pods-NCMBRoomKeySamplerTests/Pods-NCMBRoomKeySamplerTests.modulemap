@@ -1,0 +1,6 @@
+framework module Pods_NCMBRoomKeySamplerTests {
+  umbrella header "Pods-NCMBRoomKeySamplerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

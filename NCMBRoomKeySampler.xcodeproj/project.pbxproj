@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D0387BFFE2ABC48BE5EE7D9 /* Pods_NCMBRoomKeySamplerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF581C502E16A56B1FDA80B /* Pods_NCMBRoomKeySamplerTests.framework */; };
 		7A7E6C4621E178890074C314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E6C4521E178890074C314 /* AppDelegate.swift */; };
 		7A7E6C4821E178890074C314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E6C4721E178890074C314 /* ViewController.swift */; };
 		7A7E6C4B21E178890074C314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7E6C4921E178890074C314 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		7A7E6C5021E1788A0074C314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7E6C4E21E1788A0074C314 /* LaunchScreen.storyboard */; };
 		7A7E6C5B21E1788A0074C314 /* NCMBRoomKeySamplerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E6C5A21E1788A0074C314 /* NCMBRoomKeySamplerTests.swift */; };
 		7A7E6C6621E1788A0074C314 /* NCMBRoomKeySamplerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E6C6521E1788A0074C314 /* NCMBRoomKeySamplerUITests.swift */; };
+		9A032C8372890FC75EF85F04 /* Pods_NCMBRoomKeySampler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B1438AC058C9F012649A95 /* Pods_NCMBRoomKeySampler.framework */; };
+		DB382624C4CC6519070009FC /* Pods_NCMBRoomKeySamplerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC2BF4F7D7A8E77CE8F47B7 /* Pods_NCMBRoomKeySamplerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F4F7D7E816AE794A6CC2E7D /* Pods-NCMBRoomKeySamplerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCMBRoomKeySamplerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NCMBRoomKeySamplerTests/Pods-NCMBRoomKeySamplerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2AFE6A9078C253238206E9F1 /* Pods-NCMBRoomKeySamplerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCMBRoomKeySamplerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NCMBRoomKeySamplerTests/Pods-NCMBRoomKeySamplerTests.release.xcconfig"; sourceTree = "<group>"; };
+		2BF581C502E16A56B1FDA80B /* Pods_NCMBRoomKeySamplerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NCMBRoomKeySamplerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C77ABCD39728AF17DA39E3 /* Pods-NCMBRoomKeySamplerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCMBRoomKeySamplerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NCMBRoomKeySamplerUITests/Pods-NCMBRoomKeySamplerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		545D5EAE286DA5E18487EE01 /* Pods-NCMBRoomKeySampler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCMBRoomKeySampler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NCMBRoomKeySampler/Pods-NCMBRoomKeySampler.debug.xcconfig"; sourceTree = "<group>"; };
 		7A7E6C4221E178890074C314 /* NCMBRoomKeySampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCMBRoomKeySampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7E6C4521E178890074C314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A7E6C4721E178890074C314 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		7A7E6C6121E1788A0074C314 /* NCMBRoomKeySamplerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NCMBRoomKeySamplerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7E6C6521E1788A0074C314 /* NCMBRoomKeySamplerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCMBRoomKeySamplerUITests.swift; sourceTree = "<group>"; };
 		7A7E6C6721E1788A0074C314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D66B09AD23B9A62526169C7 /* Pods-NCMBRoomKeySampler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCMBRoomKeySampler.release.xcconfig"; path = "Pods/Target Support Files/Pods-NCMBRoomKeySampler/Pods-NCMBRoomKeySampler.release.xcconfig"; sourceTree = "<group>"; };
+		BC607D8DC445A55D1BF1F1D0 /* Pods-NCMBRoomKeySamplerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCMBRoomKeySamplerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NCMBRoomKeySamplerUITests/Pods-NCMBRoomKeySamplerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CFC2BF4F7D7A8E77CE8F47B7 /* Pods_NCMBRoomKeySamplerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NCMBRoomKeySamplerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B1438AC058C9F012649A95 /* Pods_NCMBRoomKeySampler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NCMBRoomKeySampler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A032C8372890FC75EF85F04 /* Pods_NCMBRoomKeySampler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D0387BFFE2ABC48BE5EE7D9 /* Pods_NCMBRoomKeySamplerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB382624C4CC6519070009FC /* Pods_NCMBRoomKeySamplerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72D22766AF0A15825910E718 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				545D5EAE286DA5E18487EE01 /* Pods-NCMBRoomKeySampler.debug.xcconfig */,
+				7D66B09AD23B9A62526169C7 /* Pods-NCMBRoomKeySampler.release.xcconfig */,
+				0F4F7D7E816AE794A6CC2E7D /* Pods-NCMBRoomKeySamplerTests.debug.xcconfig */,
+				2AFE6A9078C253238206E9F1 /* Pods-NCMBRoomKeySamplerTests.release.xcconfig */,
+				36C77ABCD39728AF17DA39E3 /* Pods-NCMBRoomKeySamplerUITests.debug.xcconfig */,
+				BC607D8DC445A55D1BF1F1D0 /* Pods-NCMBRoomKeySamplerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7A7E6C3921E178890074C314 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				7A7E6C5921E1788A0074C314 /* NCMBRoomKeySamplerTests */,
 				7A7E6C6421E1788A0074C314 /* NCMBRoomKeySamplerUITests */,
 				7A7E6C4321E178890074C314 /* Products */,
+				72D22766AF0A15825910E718 /* Pods */,
+				D6467475AA354FA4A8AB5C72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = NCMBRoomKeySamplerUITests;
 			sourceTree = "<group>";
 		};
+		D6467475AA354FA4A8AB5C72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3B1438AC058C9F012649A95 /* Pods_NCMBRoomKeySampler.framework */,
+				2BF581C502E16A56B1FDA80B /* Pods_NCMBRoomKeySamplerTests.framework */,
+				CFC2BF4F7D7A8E77CE8F47B7 /* Pods_NCMBRoomKeySamplerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A7E6C6A21E1788A0074C314 /* Build configuration list for PBXNativeTarget "NCMBRoomKeySampler" */;
 			buildPhases = (
+				39AC41B3D0BD53A941FFC63D /* [CP] Check Pods Manifest.lock */,
 				7A7E6C3E21E178890074C314 /* Sources */,
 				7A7E6C3F21E178890074C314 /* Frameworks */,
 				7A7E6C4021E178890074C314 /* Resources */,
+				1BAFDC602CB4AE5587D64468 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A7E6C6D21E1788A0074C314 /* Build configuration list for PBXNativeTarget "NCMBRoomKeySamplerTests" */;
 			buildPhases = (
+				961FC361B367F757C67ED187 /* [CP] Check Pods Manifest.lock */,
 				7A7E6C5221E1788A0074C314 /* Sources */,
 				7A7E6C5321E1788A0074C314 /* Frameworks */,
 				7A7E6C5421E1788A0074C314 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A7E6C7021E1788A0074C314 /* Build configuration list for PBXNativeTarget "NCMBRoomKeySamplerUITests" */;
 			buildPhases = (
+				E472F383D5A97D510BAD93AE /* [CP] Check Pods Manifest.lock */,
 				7A7E6C5D21E1788A0074C314 /* Sources */,
 				7A7E6C5E21E1788A0074C314 /* Frameworks */,
 				7A7E6C5F21E1788A0074C314 /* Resources */,
@@ -250,6 +294,85 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BAFDC602CB4AE5587D64468 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NCMBRoomKeySampler/Pods-NCMBRoomKeySampler-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KafkaRefresh/KafkaRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/NCMB/NCMB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KafkaRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NCMB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NCMBRoomKeySampler/Pods-NCMBRoomKeySampler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39AC41B3D0BD53A941FFC63D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NCMBRoomKeySampler-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		961FC361B367F757C67ED187 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NCMBRoomKeySamplerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E472F383D5A97D510BAD93AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NCMBRoomKeySamplerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7A7E6C3E21E178890074C314 /* Sources */ = {
@@ -430,6 +553,7 @@
 		};
 		7A7E6C6B21E1788A0074C314 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 545D5EAE286DA5E18487EE01 /* Pods-NCMBRoomKeySampler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +572,7 @@
 		};
 		7A7E6C6C21E1788A0074C314 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D66B09AD23B9A62526169C7 /* Pods-NCMBRoomKeySampler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +591,7 @@
 		};
 		7A7E6C6E21E1788A0074C314 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F4F7D7E816AE794A6CC2E7D /* Pods-NCMBRoomKeySamplerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +613,7 @@
 		};
 		7A7E6C6F21E1788A0074C314 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AFE6A9078C253238206E9F1 /* Pods-NCMBRoomKeySamplerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +635,7 @@
 		};
 		7A7E6C7121E1788A0074C314 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36C77ABCD39728AF17DA39E3 /* Pods-NCMBRoomKeySamplerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +656,7 @@
 		};
 		7A7E6C7221E1788A0074C314 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC607D8DC445A55D1BF1F1D0 /* Pods-NCMBRoomKeySamplerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
