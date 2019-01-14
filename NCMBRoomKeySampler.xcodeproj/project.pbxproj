@@ -15,6 +15,13 @@
 		7A7E6C5021E1788A0074C314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7E6C4E21E1788A0074C314 /* LaunchScreen.storyboard */; };
 		7A7E6C5B21E1788A0074C314 /* NCMBRoomKeySamplerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E6C5A21E1788A0074C314 /* NCMBRoomKeySamplerTests.swift */; };
 		7A7E6C6621E1788A0074C314 /* NCMBRoomKeySamplerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E6C6521E1788A0074C314 /* NCMBRoomKeySamplerUITests.swift */; };
+		7A7E6C7821E180AA0074C314 /* placeholder-human@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7E6C7721E180AA0074C314 /* placeholder-human@2x.png */; };
+		7A7E6C7B21E1810E0074C314 /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E6C7921E1810E0074C314 /* UserCollectionViewCell.swift */; };
+		7A7E6C7C21E1810E0074C314 /* UserCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A7E6C7A21E1810E0074C314 /* UserCollectionViewCell.xib */; };
+		7A7E6C8021E185750074C314 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E6C7F21E185750074C314 /* Room.swift */; };
+		7A7E6C8221E186D70074C314 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E6C8121E186D70074C314 /* User.swift */; };
+		7A7E6C8821E190EB0074C314 /* Error+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E6C8721E190EB0074C314 /* Error+Extension.swift */; };
+		7A7E6C8C21E1B80F0074C314 /* NCMBKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E6C8B21E1B80F0074C314 /* NCMBKey.swift */; };
 		9A032C8372890FC75EF85F04 /* Pods_NCMBRoomKeySampler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B1438AC058C9F012649A95 /* Pods_NCMBRoomKeySampler.framework */; };
 		DB382624C4CC6519070009FC /* Pods_NCMBRoomKeySamplerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC2BF4F7D7A8E77CE8F47B7 /* Pods_NCMBRoomKeySamplerUITests.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +62,13 @@
 		7A7E6C6121E1788A0074C314 /* NCMBRoomKeySamplerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NCMBRoomKeySamplerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7E6C6521E1788A0074C314 /* NCMBRoomKeySamplerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCMBRoomKeySamplerUITests.swift; sourceTree = "<group>"; };
 		7A7E6C6721E1788A0074C314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A7E6C7721E180AA0074C314 /* placeholder-human@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder-human@2x.png"; sourceTree = "<group>"; };
+		7A7E6C7921E1810E0074C314 /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
+		7A7E6C7A21E1810E0074C314 /* UserCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCollectionViewCell.xib; sourceTree = "<group>"; };
+		7A7E6C7F21E185750074C314 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		7A7E6C8121E186D70074C314 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7A7E6C8721E190EB0074C314 /* Error+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+Extension.swift"; sourceTree = "<group>"; };
+		7A7E6C8B21E1B80F0074C314 /* NCMBKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCMBKey.swift; sourceTree = "<group>"; };
 		7D66B09AD23B9A62526169C7 /* Pods-NCMBRoomKeySampler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCMBRoomKeySampler.release.xcconfig"; path = "Pods/Target Support Files/Pods-NCMBRoomKeySampler/Pods-NCMBRoomKeySampler.release.xcconfig"; sourceTree = "<group>"; };
 		BC607D8DC445A55D1BF1F1D0 /* Pods-NCMBRoomKeySamplerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCMBRoomKeySamplerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NCMBRoomKeySamplerUITests/Pods-NCMBRoomKeySamplerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CFC2BF4F7D7A8E77CE8F47B7 /* Pods_NCMBRoomKeySamplerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NCMBRoomKeySamplerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,8 +141,11 @@
 		7A7E6C4421E178890074C314 /* NCMBRoomKeySampler */ = {
 			isa = PBXGroup;
 			children = (
-				7A7E6C4521E178890074C314 /* AppDelegate.swift */,
-				7A7E6C4721E178890074C314 /* ViewController.swift */,
+				7A7E6C7421E180870074C314 /* Resources */,
+				7A7E6C8621E18FAC0074C314 /* Extensions */,
+				7A7E6C8321E18FA00074C314 /* Models */,
+				7A7E6C8421E18FA40074C314 /* Views */,
+				7A7E6C8521E18FA70074C314 /* Controllers */,
 				7A7E6C4921E178890074C314 /* Main.storyboard */,
 				7A7E6C4C21E1788A0074C314 /* Assets.xcassets */,
 				7A7E6C4E21E1788A0074C314 /* LaunchScreen.storyboard */,
@@ -153,6 +170,58 @@
 				7A7E6C6721E1788A0074C314 /* Info.plist */,
 			);
 			path = NCMBRoomKeySamplerUITests;
+			sourceTree = "<group>";
+		};
+		7A7E6C7421E180870074C314 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7A7E6C7621E180930074C314 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7A7E6C7621E180930074C314 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7A7E6C7721E180AA0074C314 /* placeholder-human@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		7A7E6C8321E18FA00074C314 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A7E6C8B21E1B80F0074C314 /* NCMBKey.swift */,
+				7A7E6C8121E186D70074C314 /* User.swift */,
+				7A7E6C7F21E185750074C314 /* Room.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A7E6C8421E18FA40074C314 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A7E6C7921E1810E0074C314 /* UserCollectionViewCell.swift */,
+				7A7E6C7A21E1810E0074C314 /* UserCollectionViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7A7E6C8521E18FA70074C314 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A7E6C4521E178890074C314 /* AppDelegate.swift */,
+				7A7E6C4721E178890074C314 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7A7E6C8621E18FAC0074C314 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7A7E6C8721E190EB0074C314 /* Error+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		D6467475AA354FA4A8AB5C72 /* Frameworks */ = {
@@ -273,8 +342,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A7E6C7C21E1810E0074C314 /* UserCollectionViewCell.xib in Resources */,
 				7A7E6C5021E1788A0074C314 /* LaunchScreen.storyboard in Resources */,
 				7A7E6C4D21E1788A0074C314 /* Assets.xcassets in Resources */,
+				7A7E6C7821E180AA0074C314 /* placeholder-human@2x.png in Resources */,
 				7A7E6C4B21E178890074C314 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,8 +450,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A7E6C7B21E1810E0074C314 /* UserCollectionViewCell.swift in Sources */,
 				7A7E6C4821E178890074C314 /* ViewController.swift in Sources */,
+				7A7E6C8C21E1B80F0074C314 /* NCMBKey.swift in Sources */,
+				7A7E6C8221E186D70074C314 /* User.swift in Sources */,
 				7A7E6C4621E178890074C314 /* AppDelegate.swift in Sources */,
+				7A7E6C8821E190EB0074C314 /* Error+Extension.swift in Sources */,
+				7A7E6C8021E185750074C314 /* Room.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
